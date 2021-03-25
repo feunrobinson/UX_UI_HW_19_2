@@ -1,0 +1,209 @@
+html{
+    scroll-behavior: smooth;
+}
+html, body{
+    font-family: 'Sora', sans-serif;
+    background-color: #E5E1F3;
+    color: white;
+    line-height: 1.6;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#headername{
+  font-size: 4rem;
+}
+#headerdescription{
+  font-size: 2rem;
+  font-family: 'Radley', serif;
+}
+h1{
+  font-size: 2rem;
+}
+p{
+    font-size: 1rem;
+}
+#projects h2{
+    font-family: 'Radley', serif;
+}
+
+/* CSS Navigation */
+.scrolltotop{
+float: left;
+margin-left: 50px;
+}
+
+.navigation{
+ position: fixed;
+ top:0;
+ z-index: 1;
+ display:flex;
+ width: 90%;
+ height: 60px;
+}
+.navigation ul{
+display: flex;
+flex-direction: row-reverse;
+width: 100%;
+}
+.navigation ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+.navigation ul li a:hover{
+    color: #d83f87;
+}
+li{
+  display: inline;
+  float: right;
+  margin-top: 30px;
+  margin-right: 50px;
+  padding: 15px;
+}
+
+/* CSS heroimage */
+.heroImg{
+  background-image: url("Images/Hero\ Image.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.herotext{
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.content{
+  width: 500px;
+  margin: 0 auto;
+}
+.profilepic{
+  position: absolute;
+  right: 332px;
+  top: 280px;
+  width: 400px;
+  height: 800px;
+}
+
+/* CSS Footer */
+footer{
+  background-color: #E5E1F3;
+  padding: 25px;
+}
+footer ul{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  padding: 1%;
+}
+/* My UX Skills section coded using CSS flex*/
+#about{
+  background-color: #E5E1F3;
+}
+.flexContainer{
+  display: flex;
+  margin-right: 25px;
+  margin-left: 25px;
+  flex-direction: row;
+}
+#aboutme{
+  text-align: center;
+  flex: 33%;
+  padding: 35px;
+}
+ul.toolbox{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+#tools{
+  flex: 33%;
+  padding: 50px;
+  text-align: center;
+  line-height: 0;
+}
+#myskills{
+  flex: 33%;
+  padding: 35px;
+  text-align: center;
+}
+
+/* Projects section coded using CSS flex*/
+#projects{
+  background-color: #2A1B3D;
+  color:white;
+  padding: 50px;
+}
+.projects{
+    position: flex;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.card a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+.card p{
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
+.card img{
+    width: 100%;
+    padding: 2rem 1rem;
+    position: relative;
+    display: block;
+}
+.card{
+    width: 400px;
+    height: 400px;
+    padding: 2rem 1rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overlay{
+    position:absolute;
+    border-radius: 100%;
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.overlay-blur{
+    backdrop-filter: blur(5px);
+}
+.overlay > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.overlay:hover{
+    opacity: 1;
+}
+.overlay:hover > * {
+    transform: translateY(0);
+}
+
+
+
+
+
+@media only screen and (max-width: 600){
+  
+}
