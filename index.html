@@ -81,12 +81,21 @@
 </section>
 <section id="contact">
     <h1>Let's Chat!</h1>
-    <div class="contactform">
-        <div id="name"><p>Name</p></div>
-        <div id="email"><p>Email</p></div>
-        <div id="message"><p>Message</p></div>
-        <button>Send</button>
-    </div>
+    <div class="container">
+        <form action="action_page.php">
+      
+          <input type="text" id="fname" name="firstname" placeholder="First Name">
+      
+          <input type="text" id="lname" name="lastname" placeholder="Last Name">
+      
+          <input type="text" id="email" name="email" placeholder="Email">
+
+          <textarea id="message" name="message" placeholder="Leave a message here..." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
 </section>
 <footer>
     <ul>
