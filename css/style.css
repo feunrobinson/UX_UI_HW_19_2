@@ -100,10 +100,10 @@ li{
 }
 .profilepic{
   position: absolute;
-  right: 300px;
-  top: 280px;
-  width: 400px;
-  height: 800px;
+  right: 30%;
+  top: 50%;
+  width: 350px;
+  height: 750px;
 }
 
 /* CSS Footer */
@@ -123,13 +123,11 @@ footer ul{
 }
 .flexContainer{
   display: flex;
-  margin-right: 25px;
-  margin-left: 25px;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: space-around;
 }
 #aboutme{
   text-align: center;
-  flex: 33%;
   padding: 35px;
 }
 ul.toolbox{
@@ -139,20 +137,18 @@ ul.toolbox{
 }
 
 #tools{
-  flex: 33%;
   padding: 50px;
   text-align: center;
   line-height: 0;
 }
 #myskills{
-  flex: 33%;
   padding: 35px;
   text-align: center;
 }
 
 /* Projects section coded using CSS flex*/
 #projects{
-  background-color: #2A1B3D;
+  background-color: #77507B;
   color:white;
   padding: 50px;
 }
@@ -218,7 +214,7 @@ ul.toolbox{
 
 /* Contact Form */
 #contact h1{
-  color: white;
+  color: #4D4D4D;
   padding: 25px;
   margin-left:25px;
 }
@@ -255,6 +251,3 @@ input[type=submit]:hover{
   background-color: #D91471;
 }
 
-[class*="col-"] {
-  width: 100%;
-}
