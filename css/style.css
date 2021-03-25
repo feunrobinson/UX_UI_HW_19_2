@@ -90,7 +90,7 @@ li{
 .herotext{
   position: absolute;
   top: 50%;
-  left: 30%;
+  left: 35%;
   transform: translate(-50%, -50%);
   color: white;
 }
@@ -100,7 +100,7 @@ li{
 }
 .profilepic{
   position: absolute;
-  right: 332px;
+  right: 300px;
   top: 280px;
   width: 400px;
   height: 800px;
@@ -253,4 +253,8 @@ input[type=submit]{
 
 input[type=submit]:hover{
   background-color: #D91471;
+}
+
+[class*="col-"] {
+  width: 100%;
 }
