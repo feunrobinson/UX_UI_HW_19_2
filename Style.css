@@ -4,7 +4,7 @@ html{
 html, body{
     font-family: 'Sora', sans-serif;
     background-color: #E5E1F3;
-    color: white;
+    color: #4D4D4D;
     line-height: 1.6;
     height: 100%;
     width: 100%;
@@ -32,6 +32,23 @@ p{
 .scrolltotop{
 float: left;
 margin-left: 50px;
+}
+
+.button {
+  background-color: #d83f87;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: #D91471;
 }
 
 .navigation{
@@ -200,6 +217,11 @@ ul.toolbox{
 }
 
 /* Contact Form */
+#contact h1{
+  color: white;
+  padding: 25px;
+  margin-left:25px;
+}
 .container{
   display: flex;
   flex-direction: column;
@@ -212,6 +234,7 @@ input[type=text], select, textarea{
   width: 100%;
   padding: 10px;
   border-radius: 20px;
+  background-color: #DFDCE1;
   border: 1px solid black;
   margin-top: 5px;
   margin-bottom: 16px;
